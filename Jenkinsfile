@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/sayson/my-node-app.git' // Replace with your repo
+                git branch: 'main', url: 'https://github.com/wh04m1-dev/mynodeapp.git' // Replace with your repo
             }
         }
         stage('Install Dependencies') {
